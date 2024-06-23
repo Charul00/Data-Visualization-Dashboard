@@ -5,7 +5,7 @@ This is a React-based Transactions Dashboard that displays transaction statistic
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
+
 - [Installation](#installation)
   - [Prerequisites](#prerequisites)
   - [Backend Setup](#backend-setup)
@@ -23,9 +23,7 @@ This is a React-based Transactions Dashboard that displays transaction statistic
 - Search transactions.
 - Pagination support for transactions list.
 
-## Demo
 
-Insert a link to your live demo here.
 
 ## Installation
 
