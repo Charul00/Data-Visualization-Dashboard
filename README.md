@@ -42,69 +42,51 @@ Insert a link to your live demo here.
 ```sh
 git clone https://github.com/your-username/transactions-dashboard.git
 cd transactions-dashboard/backend
-Install dependencies:
-sh
-Copy code
+```
+2. Install dependencies:
+```
 npm install
-Set up environment variables:
-Create a .env file in the backend directory with the following content:
+```
 
-env
-Copy code
-MONGO_URI=mongodb://localhost:27017/your-database-name
-PORT=5000
-Initialize the database with seed data:
-Note: You should only initialize the database once to avoid duplicating data. This request should only be made one time.
+3. Start the backend server:
 
-Run the following command to initialize the database:
-
-sh
-Copy code
-node seed.js
-Start the backend server:
-sh
-Copy code
+```
 npm start
+```
 The backend server will start on http://localhost:5000.
 
-Frontend Setup
-Navigate to the frontend directory:
-sh
-Copy code
+Run the following API to populate the database:
+``` 
+
+```
+
+
+### Frontend Setup
+1. Navigate to the frontend directory:
+```
 cd ../frontend
-Install dependencies:
-sh
-Copy code
+```
+
+2. Install dependencies:
+```
 npm install
-Usage
-Running the development server
-Start the frontend development server:
-sh
-Copy code
+```
+
+3. Start the frontend development server:
+
+```
 npm start
+```
 The application will start on http://localhost:3000.
 
 Ensure the backend server is also running on http://localhost:5000.
-API Endpoints
-GET /api/statistics: Fetch statistics for a specific month.
-GET /api/bar-chart-data: Fetch bar chart data for a specific month.
-GET /api/pie-chart-data: Fetch pie chart data for a specific month.
-GET /api/transactions/total: Fetch total number of transactions for pagination.
-Components
-App.js
-The main component that sets up the dashboard. It handles month selection, search functionality, and pagination.
 
-TransactionsTable.js
-Displays the list of transactions for the selected month and search query with pagination.
 
-TransactionsStatistics.js
-Fetches and displays statistics (total sale amount, sold items, and not sold items) for the selected month.
+### API Collection
 
-TransactionsBarChart.js
-Fetches and displays bar chart data for the selected month.
 
-TransactionsPieChart.js
-Fetches and displays pie chart data for the selected month.
+### Screenshots
 
-Pagination.js
-Handles pagination logic and renders pagination controls.
+
+### Additional Notes
+1. Run Seed data API only one time.
