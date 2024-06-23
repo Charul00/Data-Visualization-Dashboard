@@ -5,16 +5,13 @@ This is a React-based Transactions Dashboard that displays transaction statistic
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Installation](#installation)
   - [Prerequisites](#prerequisites)
   - [Backend Setup](#backend-setup)
   - [Frontend Setup](#frontend-setup)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Components](#components)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -23,9 +20,6 @@ This is a React-based Transactions Dashboard that displays transaction statistic
 - Search transactions.
 - Pagination support for transactions list.
 
-## Demo
-
-Insert a link to your live demo here.
 
 ## Installation
 
@@ -64,7 +58,7 @@ Run the following API to populate the database:
 ### Frontend Setup
 1. Navigate to the frontend directory:
 ```
-cd ../frontend
+cd frontend
 ```
 
 2. Install dependencies:
