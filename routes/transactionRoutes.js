@@ -3,7 +3,7 @@ const router = express.Router();
 const transactionController = require('../controllers/transactionController');
 
 // Initialize database
-// router.get('/initialize', transactionController.initializeDatabase);
+ router.get('/initialize', transactionController.initializeDatabase);
 
 // List all transactions with search and pagination
 router.get('/transactions', transactionController.getTransactions);

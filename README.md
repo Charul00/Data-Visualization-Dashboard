@@ -51,7 +51,7 @@ The backend server will start on http://localhost:5000.
 
 Run the following API to populate the database:
 ``` 
-
+http://localhost:5000/api/initialize
 ```
 
 
@@ -77,10 +77,12 @@ Ensure the backend server is also running on http://localhost:5000.
 
 
 ### API Collection
-
+```
+https://api.postman.com/collections/35229354-d489b50c-772f-4e46-bd91-c4f88f0a2bf3?access_key=PMAT-01J122S2JPARRCXK458M3QDV51
+```
 
 ### Screenshots
 
 
 ### Additional Notes
-1. Run Seed data API only one time.
+1. Run initialize with Seed data API only one time.
