@@ -10,6 +10,7 @@ This is a React-based Transactions Dashboard that displays transaction statistic
   - [Backend Setup](#backend-setup)
   - [Frontend Setup](#frontend-setup)
 - [API Collection](#API-Collection)
+- - [Screenshots](#Screenshots)
 
 
 ## Features
