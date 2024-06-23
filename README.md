@@ -9,7 +9,6 @@ This is a React-based Transactions Dashboard that displays transaction statistic
   - [Prerequisites](#prerequisites)
   - [Backend Setup](#backend-setup)
   - [Frontend Setup](#frontend-setup)
-- [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 
 
